@@ -1,0 +1,30 @@
+/*
+ * KeyPad_Private.h
+ *
+ *  Created on: Sep 14, 2021
+ *      Author: bayer
+ */
+
+#ifndef KEYPAD_PRIVATE_H_
+#define KEYPAD_PRIVATE_H_
+
+#define INPUT		0
+#define OUTPUT		1
+
+#define LOW			0
+#define HIGH		1
+#define FLOAT		0
+#define PULL_UP		1
+
+#define KEYPAD_SIZE 4
+
+#define ZERO 0
+
+u8 u8ButtonArr[4][4]=
+{
+    {BUTTON1_VALUE, BUTTON5_VALUE, BUTTON9_VALUE,BUTTON13_VALUE},
+    {BUTTON2_VALUE, BUTTON6_VALUE, BUTTON10_VALUE, BUTTON14_VALUE},
+    {BUTTON3_VALUE, BUTTON7_VALUE, BUTTON11_VALUE, BUTTON15_VALUE},
+    {BUTTON4_VALUE, BUTTON8_VALUE, BUTTON12_VALUE, BUTTON16_VALUE}
+};
+#endif /* KEYPAD_PRIVATE_H_ */
